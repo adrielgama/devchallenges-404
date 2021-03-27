@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vh;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  font-family: "Inconsolata", monospace !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 85vh;
+  /* padding: 10vh; */
+}
+
+.img-content img {
+  padding-right: 7vh;
+  width: 50vh;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.inner-content {
+  letter-spacing: -0.035em;
+  line-height: 4rem;
+}
+
+.inner-content h1 {
+  color: #333;
+  font-size: 2.4rem;
+}
+
+.inner-content p {
+  color: #4f4f4f;
+  padding: 5vh 15vh 5vh 0;
+  line-height: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+  width: 200px;
+  height: 65px;
+  background-color: #333;
+  border: none;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #fff;
+
+  transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+  border-radius: 4px;
+  background-color: #131313;
+}
+
+footer p,
+footer a {
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif !important;
+  color: #bdbdbd;
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: #4f4f4f;
+}
