@@ -1,8 +1,8 @@
 <!-- Please update value in the {}  -->
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](print.png)
 
-
+<hr/>
 <h1 align="center">404 Error</h1>
 
 <div align="center">
@@ -11,14 +11,6 @@
 
 <div align="center">
   <h4>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a>
